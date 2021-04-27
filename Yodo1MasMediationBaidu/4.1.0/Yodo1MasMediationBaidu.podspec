@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-  s.source           = { :http => 'https://bj-ali-ops-sdk-docs.oss-cn-beijing.aliyuncs.com/download/Rivendell-SDKs/4.1.0/iOS/Dev/Yodo1MasMediationBaidu-4.1.0.zip' }
+  s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
