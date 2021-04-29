@@ -27,12 +27,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-  s.source           = { :http => 'https://bj-ali-ops-sdk-docs.oss-cn-beijing.aliyuncs.com/download/Rivendell-SDKs/4.1.0/iOS/Dev/Yodo1MasMediationMintegralMax-4.1.0.zip' }
+  s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
   s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 armv7s x86_64", "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s", "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"}
   s.vendored_frameworks = s.name + '/Lib/**/*.framework'
-  s.dependency 'Yodo1MasMediationMintegral'
-  s.dependency 'Yodo1MasMediationApplovin'
+  s.dependency 'Yodo1MasMediationMintegral', '4.1.0'
+  s.dependency 'Yodo1MasMediationApplovin', '4.1.0'
 end
