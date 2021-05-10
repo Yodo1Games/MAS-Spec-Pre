@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-  s.source           = { :http => 'https://docs.yodo1.com/download/Rivendell-SDKs/4.1.0-pre-01/iOS/Pre/Yodo1MasMediationFacebook-4.1.0-pre-01.zip' }
+  s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.1.0-pre-01/iOS/Yodo1MasMediationFacebook-4.1.0-pre-01.zip' }
 
   s.ios.deployment_target = '9.0'
   s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 armv7s x86_64", "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s", "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"}
@@ -35,8 +35,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.source_files = s.name + '/Classes/**/*'
   s.public_header_files = s.name + '/Classes/**/*.h'
-  s.vendored_frameworks = s.name + '/Lib/**/*.framework'
   s.dependency 'Yodo1MasCore', '4.1.0-pre-01'
-  #s.dependency 'FBAudienceNetwork', '~> 6.2.1'
+  s.dependency 'FBAudienceNetwork', '6.2.1'
   
 end
