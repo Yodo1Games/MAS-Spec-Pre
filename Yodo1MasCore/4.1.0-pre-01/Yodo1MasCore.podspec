@@ -27,7 +27,7 @@ TODO: Yodo1MasCore
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-  s.source           = { :http => 'https://docs.yodo1.com/download/Rivendell-SDKs/4.1.0-pre-01/iOS/Pre/Yodo1MasCore-4.1.0-pre-01.zip' }
+  s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.1.0-pre-01/iOS/Yodo1MasCore-4.1.0-pre-01.zip' }
   s.static_framework = true
   s.ios.deployment_target = '9.0'
   s.info_plist = {
