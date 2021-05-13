@@ -39,5 +39,6 @@ TODO: Add long description of the pod here.
 # s.dependency 'FBAudienceNetwork', '6.2.1'
 s.vendored_frameworks = s.name + '/Lib/**/*.framework'
 s.vendored_frameworks = s.name + '/Lib/**/*.framework'
+s.vendored_frameworks = s.name + '/Lib/**/*.framework'
   
 end
