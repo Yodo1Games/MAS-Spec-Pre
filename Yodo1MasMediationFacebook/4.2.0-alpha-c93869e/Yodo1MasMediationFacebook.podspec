@@ -36,9 +36,6 @@ TODO: Add long description of the pod here.
   s.source_files = s.name + '/Classes/**/*'
   s.public_header_files = s.name + '/Classes/**/*.h'
   s.dependency 'Yodo1MasCore', '4.2.0-alpha-c93869e'
-# s.dependency 'FBAudienceNetwork', '6.2.1'
-s.vendored_frameworks = s.name + '/Lib/**/*.framework'
-s.vendored_frameworks = s.name + '/Lib/**/*.framework'
-s.vendored_frameworks = s.name + '/Lib/**/*.framework'
+  s.dependency 'FBAudienceNetwork', '6.2.1'
   
 end
