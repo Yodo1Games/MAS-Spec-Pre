@@ -42,6 +42,7 @@ s.dependency 'Yodo1MasMediationAdMobMax', '4.1.1-alpha-6132234'
 s.dependency 'Yodo1MasMediationApplovinMax', '4.1.1-alpha-6132234'
 s.dependency 'Yodo1MasMediationFyberMax', '4.1.1-alpha-6132234'
 s.dependency 'Yodo1MasMediationIronSourceMax', '4.1.1-alpha-6132234'
+s.dependency 'Yodo1MasLuckyWheel', '4.1.1-alpha-6132234'
 
 s.dependency 'Yodo1MasMediationAdColonyMax', '4.1.1-alpha-6132234'
 s.dependency 'Yodo1MasMediationFacebookMax', '4.1.1-alpha-6132234'
