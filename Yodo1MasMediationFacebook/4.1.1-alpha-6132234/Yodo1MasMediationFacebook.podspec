@@ -38,6 +38,5 @@ s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.1.1-alpha-613
 s.public_header_files = s.name + '/Classes/**/*.h'
 # s.dependency 'FBAudienceNetwork', '6.2.1'
 s.vendored_frameworks = s.name + '/Lib/**/*.framework'
-s.dependency 'FBAudienceNetwork', '6.2.1'
 
 end
