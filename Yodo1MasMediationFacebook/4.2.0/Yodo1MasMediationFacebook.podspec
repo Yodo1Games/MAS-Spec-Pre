@@ -1,5 +1,4 @@
 
-
 #
 # Be sure to run `pod lib lint Yodo1MasMediationFacebook.podspec' to ensure this is a
 # valid spec before submitting.
@@ -38,7 +37,6 @@ s.static_framework = true
 s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.2.0/iOS/Pre/Yodo1MasMediationFacebook-4.2.0.zip' }
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.dependency 'Yodo1MasCore', '4.2.0'
-# s.dependency 'FBAudienceNetwork', '6.2.1'
-s.vendored_frameworks = s.name + '/Lib/**/*.framework'
+s.dependency 'FBAudienceNetwork', '6.5.0'
 
 end
