@@ -36,6 +36,7 @@ s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 arm
 s.static_framework = true
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
+s.dependency 'Yodo1MasCore', '4.1.1-alpha-6132234'
 # s.dependency 'FBAudienceNetwork', '6.2.1'
 s.vendored_frameworks = s.name + '/Lib/**/*.framework'
 
