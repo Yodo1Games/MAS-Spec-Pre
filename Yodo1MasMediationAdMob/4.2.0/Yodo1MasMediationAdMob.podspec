@@ -36,6 +36,6 @@ s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 arm
 s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.2.0/iOS/Pre/Yodo1MasMediationAdMob-4.2.0.zip' }
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.dependency 'Yodo1MasCore', '4.2.0'
-s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
+s.dependency 'Google-Mobile-Ads-SDK', '8.5.0'
 
 end
