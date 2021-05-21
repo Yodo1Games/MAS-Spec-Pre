@@ -37,6 +37,6 @@ s.resource = s.name + '/Assets/**/*.bundle'
 s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.2.0/iOS/Pre/Yodo1MasMediationApplovin-4.2.0.zip' }
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.dependency 'Yodo1MasCore', '4.2.0'
-s.dependency 'AppLovinSDK', '6.15.2'
+s.dependency 'AppLovinSDK', '10.2.1'
 
 end
