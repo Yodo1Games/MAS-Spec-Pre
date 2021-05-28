@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-  s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://mas-artifacts.yodo1.com/4.2.0-beta-e8851dd/iOS/Pre/Yodo1MasMediationTencentMax-4.2.0-beta-e8851dd.zip' }
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
