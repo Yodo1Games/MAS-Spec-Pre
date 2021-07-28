@@ -39,7 +39,6 @@ s.resource = s.name + '/Assets/**/*'
 s.frameworks = 'UIKit', 'Foundation'
 s.dependency 'Yodo1MasCore', '4.3.0-beta-03'
 s.dependency 'Yodo1MasMediationAdMob', '4.3.0-beta-03'
-s.dependency 'Yodo1MasMediationApplovin', '4.3.0-beta-03'
 s.dependency 'Yodo1MasMediationAdColony', '4.3.0-beta-03'
-
+s.dependency 'Yodo1MasMediationUnityAds', '4.3.0-beta-03'
 end
