@@ -36,5 +36,5 @@ s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 arm
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.dependency 'Yodo1MasCore', '4.2.0'
-s.dependency 'FairBidSDK', '3.12.1'
+s.dependency 'Fyber_Marketplace_SDK', '7.8.1'
 end
