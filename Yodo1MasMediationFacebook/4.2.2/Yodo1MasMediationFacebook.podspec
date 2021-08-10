@@ -38,6 +38,6 @@ s.static_framework = true
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.dependency 'Yodo1MasCore', '4.2.2'
-s.dependency 'FBAudienceNetwork', '6.5.0'
+s.dependency 'FBAudienceNetwork', '6.5.1'
 
 end
