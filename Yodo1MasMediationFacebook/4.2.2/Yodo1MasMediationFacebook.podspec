@@ -1,5 +1,4 @@
 
-
 #
 # Be sure to run `pod lib lint Yodo1MasMediationFacebook.podspec' to ensure this is a
 # valid spec before submitting.
