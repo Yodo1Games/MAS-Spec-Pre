@@ -147,7 +147,7 @@ s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 arm
 s.resource = s.name + '/Assets/**/*'
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
-#s.vendored_frameworks = s.name + '/Lib/**/*.framework'
+
 s.frameworks = 'UIKit', 'Foundation'
 s.dependency 'AFNetworking'
 s.dependency 'YYModel'
