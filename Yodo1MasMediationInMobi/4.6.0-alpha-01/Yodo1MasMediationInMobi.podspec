@@ -38,6 +38,6 @@ s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.6.0-alpha-01'
-s.dependency 'InMobiSDK/Core', '9.2.1'
+s.dependency 'InMobiSDK/Core', '10.0.1'
 
 end
