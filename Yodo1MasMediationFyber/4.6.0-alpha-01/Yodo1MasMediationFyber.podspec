@@ -38,5 +38,5 @@ s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.6.0-alpha-01'
-s.dependency 'Fyber_Marketplace_SDK', '8.1.2'
+s.dependency 'Fyber_Marketplace_SDK', '7.9.0'
 end
