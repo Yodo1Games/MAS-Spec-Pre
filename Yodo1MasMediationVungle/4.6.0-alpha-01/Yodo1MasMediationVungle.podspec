@@ -40,6 +40,6 @@ s.public_header_files = s.name + '/Classes/**/*.h'
 s.frameworks = 'UIKit', 'Foundation'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.6.0-alpha-01'
-s.dependency 'VungleSDK-iOS', '6.10.5'
+s.dependency 'VungleSDK-iOS', '6.10.3'
 
 end
