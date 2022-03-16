@@ -39,7 +39,5 @@ s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.6.1-beta.2'
-s.dependency 'FBAudienceNetwork', '6.8.0'
-s.dependency 'FBSDKCoreKit_Basics', '11.2.1'
-
+s.dependency 'FBAudienceNetwork', '6.9.0'
 end
