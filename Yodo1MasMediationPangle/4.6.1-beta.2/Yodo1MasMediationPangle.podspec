@@ -38,7 +38,7 @@ s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.6.1-beta.2'
-s.dependency 'Ads-Global/BUAdSDK', '4.2.0.4'
-s.dependency 'Ads-Global/Domestic', '4.2.0.4'
+s.dependency 'Ads-Global/BUAdSDK', '4.3.0.2'
+s.dependency 'Ads-Global/Domestic', '4.3.0.2'
 
 end
