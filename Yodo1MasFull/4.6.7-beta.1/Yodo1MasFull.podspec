@@ -36,7 +36,8 @@ s.frameworks = 'UIKit', 'Foundation'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 #s.source_files = s.name + '/Classes/**/*'
 #s.public_header_files = s.name + '/Classes/**/*.h'
-s.vendored_frameworks = s.name + '/Lib/**/*.framework'
+s.vendored_frameworks = s.name + '/Lib/**/*.framework', s.name + '/Lib/**/*.xcframework'
+s.vendored_libraries = s.name + '/Lib/*.a'
 s.resource = s.name + '/Assets/**/*'
 
 s.dependency 'Yodo1MasCore', '4.6.7-beta.1'
