@@ -38,6 +38,6 @@ s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.7.5-beta.1'
-s.dependency 'YandexMobileAds', '4.4.2'
+s.dependency 'YandexMobileAds', '5.1.0'
 
 end
