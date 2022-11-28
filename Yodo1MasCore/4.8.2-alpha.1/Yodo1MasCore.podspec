@@ -165,7 +165,11 @@ s.resources = s.name + '/Assets/Yodo1MasCore.bundle', s.name + '/Assets/Yodo1Mas
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 #s.vendored_frameworks = s.name + '/Lib/**/*.framework'
-s.frameworks = 'UIKit', 'Foundation'
+# Thinking Data
+s.frameworks = 'UIKit', 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Security'
+s.libraries = 'sqlite3', 'z', 'resolv'
+s.requires_arc = true
+
 s.dependency 'AFNetworking'
 s.dependency 'YYModel'
 end
