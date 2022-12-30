@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
 s.name = 'Yodo1MasMediationFacebook'
 s.version = '4.8.5-dev.1'
-s.summary = 'Yodo1MasMediationFacebook'
+s.summary = 'Facebook adapter used for mediation with the Yodo1 MAS SDK'
 s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ s.description = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage = 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS'
+s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.8.5-dev.1/iOS/Pre/Yodo1MasMediationFacebook-4.8.5-dev.1.zip' }
@@ -44,5 +44,4 @@ s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.dependency 'Yodo1MasCore', '4.8.5-dev.1'
 s.dependency 'FBAudienceNetwork', '6.11.2'
-# s.dependency 'FBSDKCoreKit_Basics', '11.2.1'
 end
