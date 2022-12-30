@@ -23,7 +23,7 @@ s.description = <<-DESC
 TODO: Yodo1MasCore
 DESC
 
-s.homepage = 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS'
+s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.8.5-dev.1/iOS/Pre/Yodo1MasCore-4.8.5-dev.1.zip' }
