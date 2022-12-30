@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
 s.name = 'Yodo1MasMediationInMobi'
 s.version = '4.8.5-dev.1'
-s.summary = 'Yodo1MasMediationInMobi'
+s.summary = 'InMobi adapter used for mediation with the Yodo1 MAS SDK'
 s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ s.description = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage = 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS'
+s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.8.5-dev.1/iOS/Pre/Yodo1MasMediationInMobi-4.8.5-dev.1.zip' }
