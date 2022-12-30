@@ -170,7 +170,7 @@ s.xcconfig = {
 }
 s.pod_target_xcconfig = {
 "VALID_ARCHS[sdk=iphoneos*]" => "arm64 armv7",
-"VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64"
+"VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"
 }
 s.resources = s.name + '/Assets/Yodo1MasCore.bundle', s.name + '/Assets/Yodo1MasCore.plist'
 s.source_files = s.name + '/Classes/**/*'
