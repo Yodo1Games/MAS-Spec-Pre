@@ -34,7 +34,8 @@ s.xcconfig = {
 }
 s.pod_target_xcconfig = {
 "DEFINES_MODULE" => "YES",
-"VALID_ARCHS[sdk=iphoneos*]" => "arm64 armv7",
+"VALID_ARCHS" => "arm64 arm64e armv7 armv7s x86_64",
+"VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s",
 "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64"
 }
 s.ios.deployment_target = '12.0'
