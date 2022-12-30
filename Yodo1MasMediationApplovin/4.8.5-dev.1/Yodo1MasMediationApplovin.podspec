@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
 s.name = 'Yodo1MasMediationApplovin'
 s.version = '4.8.5-dev.1'
-s.summary = 'Yodo1MasMediationApplovin'
+s.summary = 'AppLovin adapter used for mediation with the Yodo1 MAS SDK'
 s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -23,9 +23,7 @@ s.description = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage = 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS'
-# s.screenshots = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.8.5-dev.1/iOS/Pre/Yodo1MasMediationApplovin-4.8.5-dev.1.zip' }
