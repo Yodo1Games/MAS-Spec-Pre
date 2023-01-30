@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
 s.name = 'Yodo1MasMediationIronSource'
 s.version = '4.8.6-alpha.1'
-s.summary = 'Yodo1MasMediationIronSource'
+s.summary = 'IronSource adapter used for mediation with the Yodo1 MAS SDK'
 s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -23,20 +23,27 @@ s.description = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage = 'https://github.com/Yodo1Games/Yodo1-MAS-SDK-iOS'
-# s.screenshots = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.8.6-alpha.1/iOS/Pre/Yodo1MasMediationIronSource-4.8.6-alpha.1.zip' }
-s.ios.deployment_target = '9.0'
 
+s.xcconfig = {
+"OTHER_LDFLAGS" => "-ObjC",
+"GENERATE_INFOPLIST_FILE" => "YES"
+}
+s.pod_target_xcconfig = {
+"DEFINES_MODULE" => "YES",
+"VALID_ARCHS" => "arm64 arm64e armv7 armv7s x86_64",
+"VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s",
+"VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64"
+}
+
+s.ios.deployment_target = '10.0'
 s.static_framework = true
-s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC", "VALID_ARCHS"=>"arm64 arm64e armv7 armv7s x86_64", "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s", "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64"}
 s.resource = s.name + '/Assets/**/*'
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
-s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 s.dependency 'Yodo1MasCore', '4.8.6-alpha.1'
 s.dependency 'IronSourceSDK', '7.2.5.0'
 end
