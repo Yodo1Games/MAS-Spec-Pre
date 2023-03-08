@@ -38,7 +38,7 @@ s.pod_target_xcconfig = {
 "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s",
 "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64"
 }
-s.ios.deployment_target = '10.0'
+s.ios.deployment_target = '12.0'
 s.static_framework = true
 s.resource = s.name + '/Assets/**/*'
 s.source_files = s.name + '/Classes/**/*' #,s.name + '/Lib/*.h'
