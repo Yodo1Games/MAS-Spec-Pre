@@ -49,18 +49,18 @@ sub.dependency 'Ads-CN/BUAdSDK_Compatible', '= 4.9.0.7'
 end
 s.subspec 'AdMob' do |sub|
 sub.dependency 'Yodo1MasMediationPangle/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationAdMob/Core', '4.8.10-alpha.2'
+sub.dependency 'Google-Mobile-Ads-SDK', '10.2.0'
 sub.vendored_frameworks = s.name + '/Lib/PangleAdapter.xcframework'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationPangle/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationApplovin/Core', '4.8.10-alpha.2'
+sub.dependency 'AppLovinSDK', '11.8.1'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationByteDanceAdapter.xcframework'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationCSJAdapter.xcframework'
 end
 s.subspec 'IronSource' do |sub|
 sub.dependency 'Yodo1MasMediationPangle/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationIronSource/Core', '4.8.10-alpha.2'
+sub.dependency 'IronSourceSDK', '7.2.7.0'
 sub.vendored_frameworks = s.name + '/Lib/ISPangleAdapter.xcframework'
 sub.vendored_frameworks = s.name + '/Lib/ISCSJAdapter.xcframework'
 end
