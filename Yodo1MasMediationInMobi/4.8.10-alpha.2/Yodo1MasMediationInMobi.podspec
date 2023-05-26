@@ -48,17 +48,17 @@ sub.dependency 'InMobiSDK/Core', '10.1.3'
 end
 s.subspec 'AdMob' do |sub|
 sub.dependency 'Yodo1MasMediationInMobi/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationAdMob/Core', '4.8.10-alpha.2'
+sub.dependency 'Google-Mobile-Ads-SDK', '10.2.0'
 sub.vendored_frameworks = s.name + '/Lib/InMobiAdapter.xcframework'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationInMobi/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationApplovin/Core', '4.8.10-alpha.2'
+sub.dependency 'AppLovinSDK', '11.8.1'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationInMobiAdapter.xcframework'
 end
 s.subspec 'IronSource' do |sub|
 sub.dependency 'Yodo1MasMediationInMobi/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationIronSource/Core', '4.8.10-alpha.2'
+sub.dependency 'IronSourceSDK', '7.2.7.0'
 sub.vendored_frameworks = s.name + '/Lib/ISInMobiAdapter.xcframework'
 end
 
