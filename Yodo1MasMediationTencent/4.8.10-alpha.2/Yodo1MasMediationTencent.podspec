@@ -53,7 +53,7 @@ s.subspec 'AppLovin' do |sub|
 sub.source_files = s.name + '/Custom/**/*'
 sub.public_header_files = s.name + '/Custom/**/*.h'
 sub.dependency 'Yodo1MasMediationTencent/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationApplovin/Core', '4.8.10-alpha.2'
+sub.dependency 'AppLovinSDK', '11.8.1'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationTencentGDTAdapter.xcframework'
 end
 end
