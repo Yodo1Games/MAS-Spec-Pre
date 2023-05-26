@@ -47,7 +47,7 @@ sub.dependency 'YandexMobileAds', '5.5.0'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationYandex/Core', '4.8.10-alpha.2'
-sub.dependency 'Yodo1MasMediationApplovin/Core', '4.8.10-alpha.2'
+sub.dependency 'AppLovinSDK', '11.8.1'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationYandexAdapter.xcframework'
 end
 end
