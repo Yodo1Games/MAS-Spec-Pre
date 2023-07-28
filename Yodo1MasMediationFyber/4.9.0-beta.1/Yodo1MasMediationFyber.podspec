@@ -43,7 +43,7 @@ sub.resource = s.name + '/Assets/**/*'
 sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.9.0-beta.1'
-sub.dependency 'Fyber_Marketplace_SDK', '8.2.3'
+sub.dependency 'Fyber_Marketplace_SDK', '8.1.9'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationFyber/Core', '4.9.0-beta.1'
