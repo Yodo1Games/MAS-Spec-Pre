@@ -44,7 +44,7 @@ sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.9.3-alpha.1'
 sub.dependency 'AppLovinSDK', '11.10.1'
-sub.vendored_frameworks = s.name + '/Lib/DTBiOSSDK.xcframework', s.name + '/Lib/AppLovinMediationAmazonAdMarketplaceAdapter.xcframework'
+sub.vendored_frameworks = s.name + '/Lib/DTBiOSSDK.framework', s.name + '/Lib/AppLovinMediationAmazonAdMarketplaceAdapter.xcframework'
 end
 # s.subspec 'AdMob' do |sub|
 # sub.dependency, '4.9.3-alpha.1'
