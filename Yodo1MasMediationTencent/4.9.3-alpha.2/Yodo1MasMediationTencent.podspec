@@ -46,7 +46,7 @@ sub.resource = s.name + '/Assets/**/*'
 sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.9.3-alpha.2'
-sub.dependency 'GDTMobSDK', '4.14.32'
+sub.dependency 'GDTMobSDK', '4.14.45'
 end
 s.subspec 'AppLovin' do |sub|
 sub.source_files = s.name + '/Custom/**/*'
