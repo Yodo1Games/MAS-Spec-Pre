@@ -43,6 +43,9 @@ sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.11.0-alpha.7'
 sub.dependency 'YandexMobileAds', '6.1.0'
+sub.dependency 'DivKit', '28.4.0'
+sub.dependency 'VGSLCommonCore', '2.3.2'
+sub.dependency 'VGSLNetworking', '2.3.2'
 end
 s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationYandex/Core', '4.11.0-alpha.7'
