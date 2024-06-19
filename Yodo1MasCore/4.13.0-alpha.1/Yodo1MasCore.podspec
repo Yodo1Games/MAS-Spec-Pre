@@ -26,7 +26,7 @@ s.homepage = 'https://www.yodo1.com/'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { 'Yodo1Games' => 'devadmin@yodo1.com' }
 s.source = { :http => 'https://mas-artifacts.yodo1.com/4.13.0-alpha.1/iOS/Pre/Yodo1MasCore-4.13.0-alpha.1.zip' }
-s.static_framework = true
+# s.static_framework = true
 s.ios.deployment_target = '12.0'
 s.info_plist = {
 'AppLovinSdkKey' => 'xcGD2fy-GdmiZQapx_kUSy5SMKyLoXBk8RyB5u9MVv34KetGdbl4XrXvAUFy0Qg9scKyVTI0NM4i_yzdXih4XE',
