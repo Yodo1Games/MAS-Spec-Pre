@@ -40,9 +40,9 @@ s.pod_target_xcconfig = {
 }
 s.subspec 'Core' do |sub|
 sub.frameworks = 'UIKit', 'Foundation'
-
-
-sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+sub.resource = s.name + '/Assets/**/*'
+sub.source_files = s.name + '/Classes/**/*'
+sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '0.0.1-dev.1'
 sub.dependency 'VungleAds', '7.3.2'
 end
