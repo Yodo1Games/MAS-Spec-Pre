@@ -49,8 +49,6 @@ sub.dependency 'Yodo1MasCore', '0.0.1-dev.1'
 sub.dependency 'GDTMobSDK', '4.14.81'
 end
 s.subspec 'AppLovin' do |sub|
-
-sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasMediationTencent/Core', '0.0.1-dev.1'
 sub.dependency 'AppLovinSDK', '12.5.0'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationTencentGDTAdapter.xcframework'
