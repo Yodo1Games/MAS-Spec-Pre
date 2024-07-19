@@ -42,13 +42,15 @@ s.subspec 'Core' do |sub|
 sub.frameworks = 'StoreKit', 'Security','CoreTelephony', 'AdSupport','CoreLocation', 'QuartzCore' ,'SystemConfiguration', 'AVFoundation'
 sub.weak_frameworks = 'WebKit'
 sub.libraries = 'xml2', 'z'
-
-
-sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+sub.resource = s.name + '/Assets/**/*'
+sub.source_files = s.name + '/Classes/**/*'
+sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '0.0.1-dev.1'
 sub.dependency 'GDTMobSDK', '4.14.81'
 end
 s.subspec 'AppLovin' do |sub|
+sub.source_files = s.name + '/Custom/**/*'
+sub.public_header_files = s.name + '/Custom/**/*.h'
 sub.dependency 'Yodo1MasMediationTencent/Core', '0.0.1-dev.1'
 sub.dependency 'AppLovinSDK', '12.5.0'
 sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationTencentGDTAdapter.xcframework'
