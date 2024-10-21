@@ -46,7 +46,7 @@ sub.resource = s.name + '/Assets/**/*'
 sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.14.0-beta.2'
-sub.dependency 'GDTMobSDK', '4.14.90'
+sub.dependency 'GDTMobSDK', '4.15.10'
 end
 # s.subspec 'AppLovin' do |sub|
 # sub.source_files = s.name + '/Custom/**/*'
@@ -57,7 +57,7 @@ end
 # end
 s.subspec 'ToBid' do |sub|
 sub.dependency 'Yodo1MasMediationTencent/Core', '4.14.0-beta.2'
-sub.dependency 'ToBid-iOS', '4.0.0'
+sub.dependency 'ToBid-iOS', '4.1.0'
 sub.vendored_libraries = s.name + '/Lib/libWindMillGDTAdapter.a'
 end
 end
