@@ -43,12 +43,12 @@ sub.resource = s.name + '/Assets/**/*'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.14.0-beta.2'
-sub.dependency 'ToBid-iOS', '4.0.0'
-sub.dependency 'ToBid-iOS/BaiduAdapter', '4.0.0'
-sub.dependency 'ToBid-iOS/KSAdapter', '4.0.0'
-# sub.dependency, '4.0.0'
-# sub.dependency, '4.0.0'
-# sub.dependency, '4.0.0'
+sub.dependency 'ToBid-iOS', '4.1.0'
+sub.dependency 'ToBid-iOS/BaiduAdapter', '4.1.0'
+sub.dependency 'ToBid-iOS/KSAdapter', '4.1.0'
+# sub.dependency, '4.1.0'
+# sub.dependency, '4.1.0'
+# sub.dependency, '4.1.0'
 
 # sub.vendored_libraries = s.name + '/Lib/**/*.a'
 # sub.vendored_frameworks = s.name + '/Lib/**/*.xcframework'
