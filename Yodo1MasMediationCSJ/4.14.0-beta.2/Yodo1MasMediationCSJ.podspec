@@ -43,8 +43,8 @@ sub.resource = s.name + '/Assets/**/*'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.14.0-beta.2'
-sub.dependency 'Ads-CN/BUAdSDK', '6.3.0.6'
-sub.dependency 'Ads-CN/CSJMediation', '6.3.0.6'
+sub.dependency 'Ads-CN/BUAdSDK', '6.4.1.0'
+sub.dependency 'Ads-CN/CSJMediation', '6.4.1.0'
 end
 # s.subspec 'AppLovin' do |sub|
 # sub.dependency, '4.14.0-beta.2'
@@ -53,7 +53,7 @@ end
 # end
 s.subspec 'ToBid' do |sub|
 sub.dependency 'Yodo1MasMediationCSJ/Core', '4.14.0-beta.2'
-sub.dependency 'ToBid-iOS', '4.0.0'
+sub.dependency 'ToBid-iOS', '4.1.0'
 sub.vendored_libraries = s.name + '/Lib/libWindMillTTAdAdapter.a', s.name + '/Lib/libWindMillGroMoreAdapter.a'
 end
 end
