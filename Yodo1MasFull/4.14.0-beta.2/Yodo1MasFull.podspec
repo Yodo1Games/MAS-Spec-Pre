@@ -60,7 +60,6 @@ s.dependency 'Yodo1MasMediationToBid', '4.14.0-beta.2'
 s.dependency 'Yodo1MasMediationTradPlus', '4.14.0-beta.2'
 s.dependency 'Yodo1MasMediationUnityAds', '4.14.0-beta.2'
 s.dependency 'Yodo1MasMediationVungle', '4.14.0-beta.2'
-s.dependency 'Yodo1MasMediationYandex', '4.14.0-beta.2'
 s.dependency 'Yodo1MasMediationYodo1', '4.14.0-beta.2'
 s.dependency 'Yodo1MasMediationYso', '4.14.0-beta.2'
 end
