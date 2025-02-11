@@ -37,7 +37,6 @@ sub.resource = s.name + '/Assets/Yodo1MasPangle.plist'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.14.3-alpha.2'
-# sub.dependency 'Ads-Global/BUAdSDK_Compatible', '6.3.1.1'
 sub.dependency 'Ads-Global', '6.4.1.2'
 end
 s.subspec 'AppLovin' do |sub|
