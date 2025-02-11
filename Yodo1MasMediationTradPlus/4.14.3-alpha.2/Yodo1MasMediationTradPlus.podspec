@@ -36,7 +36,7 @@ sub.resource = s.name + '/Assets/**/*'
 
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.14.3-alpha.2'
-sub.dependency 'TradPlusAdSDK', '12.4.0'
-sub.dependency 'TradPlusAdSDK/TPCrossAdapter', '12.4.0'
+sub.dependency 'TradPlusAdSDK', '13.1.0'
+sub.dependency 'TradPlusAdSDK/TPCrossAdapter', '13.1.0'
 end
 end
