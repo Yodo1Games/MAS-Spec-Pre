@@ -53,7 +53,7 @@ sub.vendored_frameworks = s.name + '/Lib/AppLovinAdapter.xcframework'
 end
 # s.subspec 'IronSource' do |sub|
 # sub.dependency, '4.14.3-alpha.2'
-# sub.dependency 'IronSourceSDK', '8.6.1.0'
+# sub.dependency 'IronSourceSDK', '8.5.1.0'
 # sub.vendored_frameworks = s.name + '/Lib/ISAppLovinAdapter.xcframework'
 # end
 end
