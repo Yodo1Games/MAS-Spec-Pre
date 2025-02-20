@@ -36,7 +36,7 @@ sub.resource = s.name + '/Assets/**/*'
 sub.source_files = s.name + '/Classes/**/*'
 sub.public_header_files = s.name + '/Classes/**/*.h'
 sub.dependency 'Yodo1MasCore', '4.15.0-alpha.1'
-sub.dependency 'YandexMobileAds', '7.10.0'
+sub.dependency 'YandexMobileAds', '7.10.1'
 
 # Yandex is using dynamic versions of the following libraries to avoid exceptions and lock version numbers
 sub.dependency 'AppMetricaCore', '5.8.2'
