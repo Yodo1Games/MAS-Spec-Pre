@@ -45,5 +45,7 @@ s.subspec 'AppLovin' do |sub|
 sub.dependency 'Yodo1MasMediationMaticoo/Core', '4.15.0-beta.1'
 sub.dependency 'AppLovinSDK', '13.1.0'
 # sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationMaticooAdapter.xcframework'
+
+sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 end
 end
