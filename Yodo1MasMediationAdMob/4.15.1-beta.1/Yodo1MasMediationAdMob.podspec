@@ -37,7 +37,20 @@ sub.resources = s.name + '/Assets/Yodo1MasAdMob.plist'
 sub.resource_bundles = {
 'Yodo1MasMediationAdMobResources' => [s.name + '/Assets/**/*.xib']
 }
-
+sub.script_phases = [
+  {
+    :name => 'Fix Bundle Info.plist',
+    :script => <<-SCRIPT
+      find "${PODS_CONFIGURATION_BUILD_DIR}" -name "*.bundle" | while read bundle; do
+        plist="${bundle}/Info.plist"
+        if [ -f "${plist}" ]; then
+          /usr/libexec/PlistBuddy -c "Delete :CFBundleExecutable" "${plist}" 2>/dev/null
+          /usr/libexec/PlistBuddy -c "Set :CFBundlePackageType BNDL" "${plist}" 2>/dev/null
+        fi
+      done
+    SCRIPT
+  }
+]
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.15.1-beta.1'
 sub.dependency 'Google-Mobile-Ads-SDK', '12.1.0'
