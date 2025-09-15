@@ -36,29 +36,117 @@ s.resource = s.name + '/Assets/**/*'
 # s.source_files = s.name + '/Classes/**/*'
 
 s.dependency 'Yodo1MasCore', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationAdMob', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationApplovin', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationBidMachine', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationBigo', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationChartboost', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationCSJ', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationFacebook', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationFyber', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationInMobi', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationIronSource', '4.16.1-beta.1'
-# s.dependency, '4.16.1-beta.1'
-# s.dependency, '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationMintegral', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationMoloco', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationPangle', '4.16.1-beta.1'
-# s.dependency, '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationTaurusX', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationTencent', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationToBid', '4.16.1-beta.1'
-# s.dependency, '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationUnityAds', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationVungle', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationYandex', '4.16.1-beta.1'
+  
+# AdMob
+s.dependency 'Yodo1MasMediationAdMob/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationAdMob/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationAdMob/IronSource', '4.16.1-beta.1'
+
+# AppLovin
+s.dependency 'Yodo1MasMediationApplovin/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationApplovin/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationApplovin/IronSource', '4.16.1-beta.1'
+
+# BidMachine
+s.dependency 'Yodo1MasMediationBidMachine/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationBidMachine/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationBidMachine/IronSource', '4.16.1-beta.1'
+
+# Bigo
+s.dependency 'Yodo1MasMediationBigo/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationBigo/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationBigo/IronSource', '4.16.1-beta.1'
+
+# Chartboost
+s.dependency 'Yodo1MasMediationChartboost/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationChartboost/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationChartboost/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationChartboost/IronSource', '4.16.1-beta.1'
+
+# CSJ
+s.dependency 'Yodo1MasMediationCSJ/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationCSJ/ToBid', '4.16.1-beta.1'
+
+# Facebook
+s.dependency 'Yodo1MasMediationFacebook/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationFacebook/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationFacebook/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationFacebook/IronSource', '4.16.1-beta.1'
+
+# Fyber
+s.dependency 'Yodo1MasMediationFyber/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationFyber/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationFyber/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationFyber/IronSource', '4.16.1-beta.1'
+
+# InMobi
+s.dependency 'Yodo1MasMediationInMobi/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationInMobi/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationInMobi/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationInMobi/IronSource', '4.16.1-beta.1'
+
+# IronSource
+s.dependency 'Yodo1MasMediationIronSource/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationIronSource/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationIronSource/AppLovin', '4.16.1-beta.1'
+
+#  s.dependency 'Yodo1MasMediationKidoz', '4.16.1-beta.1'
+#  s.dependency 'Yodo1MasMediationMaticoo', '4.16.1-beta.1'
+
+# Mintegral
+s.dependency 'Yodo1MasMediationMintegral/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationMintegral/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationMintegral/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationMintegral/IronSource', '4.16.1-beta.1'
+
+# Moloco
+s.dependency 'Yodo1MasMediationMoloco/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationMoloco/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationMoloco/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationMoloco/IronSource', '4.16.1-beta.1'
+
+# Pangle
+s.dependency 'Yodo1MasMediationPangle/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationPangle/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationPangle/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationPangle/IronSource', '4.16.1-beta.1'
+
+#  s.dependency 'Yodo1MasMediationPubMatic', '4.16.1-beta.1'
+
+# TaurusX
+s.dependency 'Yodo1MasMediationTaurusX/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationTaurusX/AppLovin', '4.16.1-beta.1'
+
+# Tencent
+s.dependency 'Yodo1MasMediationTencent/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationTencent/ToBid', '4.16.1-beta.1'
+
+# ToBid
+s.dependency 'Yodo1MasMediationToBid/Core', '4.16.1-beta.1'
+#  s.dependency 'Yodo1MasMediationTopOn', '4.16.1-beta.1'
+
+# Unity Ads
+s.dependency 'Yodo1MasMediationUnityAds/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationUnityAds/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationUnityAds/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationUnityAds/IronSource', '4.16.1-beta.1'
+
+# Vungle
+s.dependency 'Yodo1MasMediationVungle/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationVungle/AdMob', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationVungle/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationVungle/IronSource', '4.16.1-beta.1'
+
+# Yandex
+s.dependency 'Yodo1MasMediationYandex/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationYandex/AppLovin', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationYandex/IronSource', '4.16.1-beta.1'
+
+# Yso
+s.dependency 'Yodo1MasMediationYso/Core', '4.16.1-beta.1'
+s.dependency 'Yodo1MasMediationYso/AppLovin', '4.16.1-beta.1'
+
+# Yodo1 Test Ads
 s.dependency 'Yodo1MasMediationYodo1', '4.16.1-beta.1'
-s.dependency 'Yodo1MasMediationYso', '4.16.1-beta.1'
+
 end
