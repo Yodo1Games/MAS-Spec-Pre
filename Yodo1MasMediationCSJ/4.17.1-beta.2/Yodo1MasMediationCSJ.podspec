@@ -39,7 +39,7 @@ s.source = { :http => 'https://mas-artifacts.yodo1.com/4.17.1-beta.2/iOS/Pre/Yod
 sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '4.17.1-beta.2'
     sub.dependency 'Ads-CN/BUAdSDK', '7.1.0.9'
-    sub.dependency 'Ads-CN/CSJMediation', '7.1.0.9'
+    sub.dependency 'Ads-CN/CSJMediation-Only', '7.1.0.9'
   end
   #  s.subspec 'AppLovin' do |sub|
 # sub.dependency, '4.17.1-beta.2'
