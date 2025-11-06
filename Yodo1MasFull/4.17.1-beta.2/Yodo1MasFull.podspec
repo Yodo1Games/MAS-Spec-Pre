@@ -58,8 +58,8 @@ s.dependency 'Yodo1MasMediationBigo/AppLovin', '4.17.1-beta.2'
 s.dependency 'Yodo1MasMediationBigo/IronSource', '4.17.1-beta.2'
 
   # CSJ
-s.dependency 'Yodo1MasMediationCSJ/Core', '4.17.1-beta.2'
-s.dependency 'Yodo1MasMediationCSJ/ToBid', '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
 
   # Meta Audience Network(Facebook)
 s.dependency 'Yodo1MasMediationFacebook/Core', '4.17.1-beta.2'
@@ -103,11 +103,11 @@ s.dependency 'Yodo1MasMediationPangle/AppLovin', '4.17.1-beta.2'
 s.dependency 'Yodo1MasMediationPangle/IronSource', '4.17.1-beta.2'
   
   # Tencent
-s.dependency 'Yodo1MasMediationTencent/Core', '4.17.1-beta.2'
-s.dependency 'Yodo1MasMediationTencent/ToBid', '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
 
   # ToBid
-s.dependency 'Yodo1MasMediationToBid/Core', '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
 
   # Unity Ads
 s.dependency 'Yodo1MasMediationUnityAds/Core', '4.17.1-beta.2'
@@ -122,13 +122,13 @@ s.dependency 'Yodo1MasMediationVungle/AppLovin', '4.17.1-beta.2'
 s.dependency 'Yodo1MasMediationVungle/IronSource', '4.17.1-beta.2'
   
   # Yandex
-s.dependency 'Yodo1MasMediationYandex/Core', '4.17.1-beta.2'
-s.dependency 'Yodo1MasMediationYandex/AppLovin', '4.17.1-beta.2'
-s.dependency 'Yodo1MasMediationYandex/IronSource', '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
     
   # YSO Network
-s.dependency 'Yodo1MasMediationYso/Core', '4.17.1-beta.2'
-s.dependency 'Yodo1MasMediationYso/AppLovin', '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
+# s.dependency, '4.17.1-beta.2'
 
   # Yodo1 Test Ads
 s.dependency 'Yodo1MasMediationYodo1', '4.17.1-beta.2'
