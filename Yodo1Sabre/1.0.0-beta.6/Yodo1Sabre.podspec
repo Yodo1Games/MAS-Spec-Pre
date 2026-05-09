@@ -40,6 +40,6 @@ s.public_header_files = s.name + '/Classes/**/*.h'
 s.frameworks = 'UIKit', 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Security'
 s.weak_frameworks = 'AppTrackingTransparency'
 s.libraries = 'sqlite3', 'z', 'resolv'
-s.dependency 'YDYThinkingSDK', '2.8.0.2'
+s.dependency 'YDYThinkingSDK'
 
 end
