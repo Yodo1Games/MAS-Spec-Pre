@@ -33,7 +33,7 @@ s.source = { :http => 'https://mas-artifacts.yodo1.com/5.0.0-alpha.1/iOS/Pre/Yod
   s.subspec 'Core' do |sub|
     sub.resource = s.name + '/Assets/**/*'
 
-s.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '5.0.0-alpha.1'
 sub.dependency 'Yodo1MasMediationAurion11/A11Mediation', '5.0.0-alpha.1'
   end
