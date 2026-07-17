@@ -25,11 +25,16 @@ s.source = { :http => 'https://mas-artifacts.yodo1.com/5.0.0-alpha.1/iOS/Pre/Yod
     "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s",
     "VALID_ARCHS[sdk=iphonesimulator*]" => "arm64 x86_64"
   }
+
+  s.subspec 'A11Mediation' do |sub|
+    sub.vendored_frameworks = s.name + '/Lib/A11Mediation.xcframework', s.name + '/Lib/A11MediationRenderer.xcframework', s.name + '/Lib/OMSDK_Aurion11.xcframework'
+  end
+
   s.subspec 'Core' do |sub|
     sub.resource = s.name + '/Assets/**/*'
 
 s.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '5.0.0-alpha.1'
-    sub.vendored_frameworks = s.name + '/Lib/A11Mediation.xcframework', s.name + '/Lib/A11MediationRenderer.xcframework', s.name + '/Lib/OMSDK_Aurion11.xcframework'
+sub.dependency 'Yodo1MasMediationAurion11/A11Mediation', '5.0.0-alpha.1'
   end
 end
