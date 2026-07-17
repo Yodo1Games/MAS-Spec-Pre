@@ -28,7 +28,7 @@ s.source = { :http => 'https://mas-artifacts.yodo1.com/5.0.0-alpha.1/iOS/Pre/Yod
   s.subspec 'Core' do |sub|
     sub.resource = s.name + '/Assets/**/*'
 
-sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+s.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '5.0.0-alpha.1'
     sub.vendored_frameworks = s.name + '/Lib/A11Mediation.xcframework', s.name + '/Lib/A11MediationRenderer.xcframework', s.name + '/Lib/OMSDK_Aurion11.xcframework'
   end
