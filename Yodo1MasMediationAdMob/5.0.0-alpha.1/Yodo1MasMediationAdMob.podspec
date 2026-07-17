@@ -44,7 +44,7 @@ s.source = { :http => 'https://mas-artifacts.yodo1.com/5.0.0-alpha.1/iOS/Pre/Yod
     }
     ]
 
-sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+s.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '5.0.0-alpha.1'
 sub.dependency 'Google-Mobile-Ads-SDK', '13.1.0'
   end
