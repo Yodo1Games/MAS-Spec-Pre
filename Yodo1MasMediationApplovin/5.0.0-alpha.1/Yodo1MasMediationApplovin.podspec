@@ -29,7 +29,7 @@ s.source = { :http => 'https://mas-artifacts.yodo1.com/5.0.0-alpha.1/iOS/Pre/Yod
   s.subspec 'Core' do |sub|
     sub.resource = s.name + '/Assets/Yodo1MasAppLovin.plist'
 
-sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+s.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
 sub.dependency 'Yodo1MasCore', '5.0.0-alpha.1'
 sub.dependency 'AppLovinSDK', '13.6.1'
   end
