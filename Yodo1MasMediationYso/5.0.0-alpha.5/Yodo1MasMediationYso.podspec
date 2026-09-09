@@ -30,13 +30,11 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.5'
-    sub.dependency 'YsoNetworkSDK', '1.1.31'
+    sub.dependency 'YsoNetworkSDK', '1.2.1'
   end
   s.subspec 'AppLovin' do |sub|
     sub.dependency 'Yodo1MasMediationYso/Core', '5.0.0-alpha.5'
     sub.dependency 'AppLovinSDK', '13.6.4'
-    #    sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationYSONetworkAdapter.xcframework'
-
-    sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
+    sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationYSONetworkAdapter.xcframework'
   end
 end
