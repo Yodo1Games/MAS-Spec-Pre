@@ -28,18 +28,11 @@ Pod::Spec.new do |s|
     sub.weak_frameworks = 'WebKit'
     sub.libraries = 'xml2', 'z'
     sub.resource = s.name + '/Assets/**/*'
-    sub.source_files = s.name + '/Classes/**/*'
-    sub.public_header_files = s.name + '/Classes/**/*.h'
+
+    sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.5'
     sub.dependency 'GDTMobSDK', '4.15.90'
   end
-  #  s.subspec 'AppLovin' do |sub|
-  #    sub.source_files = s.name + '/Custom/**/*'
-  #    sub.public_header_files = s.name + '/Custom/**/*.h'
-  #    sub.dependency 'Yodo1MasMediationTencent/Core', '5.0.0'
-  #    sub.dependency 'AppLovinSDK', '13.6.4'
-  #    sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationTencentGDTAdapter.xcframework'
-  #  end
   s.subspec 'ToBid' do |sub|
     sub.dependency 'Yodo1MasMediationTencent/Core', '5.0.0-alpha.5'
     sub.dependency 'ToBid-iOS/ToBidSDK', '5.7.4'
