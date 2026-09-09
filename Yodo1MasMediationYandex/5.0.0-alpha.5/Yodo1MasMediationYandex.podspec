@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   }
   s.subspec 'Core' do |sub|
     sub.resource = s.name + '/Assets/**/*'
-    sub.source_files = s.name + '/Classes/**/*'
-    sub.public_header_files = s.name + '/Classes/**/*.h'
+
+    sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.5'
     sub.dependency 'YandexMobileAds', '8.3.0'
     
