@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'MolocoSDKiOS', '4.11.0'
+    sub.dependency 'MolocoSDKiOS', '4.11.1'
   end
   s.subspec 'AppLovin' do |sub|
     sub.dependency 'Yodo1MasMediationMoloco/Core', '5.0.0-alpha.7'
