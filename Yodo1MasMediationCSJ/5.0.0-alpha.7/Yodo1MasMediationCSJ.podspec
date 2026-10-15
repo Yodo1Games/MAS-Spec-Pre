@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #  end
   s.subspec 'ToBid' do |sub|
     sub.dependency 'Yodo1MasMediationCSJ/Core', '5.0.0-alpha.7'
-    sub.dependency 'ToBid-iOS-RC/ToBidSDK', '5.10.0'
+    sub.dependency 'ToBid-iOS-RC/ToBidSDK', '5.10.1'
     sub.vendored_frameworks = s.name + '/Lib/WindMillCSJAdapter.xcframework', s.name + '/Lib/WindMillGroMoreAdapter.xcframework'
   end
 end
