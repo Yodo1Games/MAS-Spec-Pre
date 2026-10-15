@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'GDTMobSDK', '4.16.10'
+    sub.dependency 'GDTMobSDK', '4.16.11'
   end
   s.subspec 'ToBid' do |sub|
     sub.dependency 'Yodo1MasMediationTencent/Core', '5.0.0-alpha.7'
-    sub.dependency 'ToBid-iOS-RC/ToBidSDK', '5.10.0'
+    sub.dependency 'ToBid-iOS-RC/ToBidSDK', '5.10.1'
     sub.vendored_frameworks = s.name + '/Lib/WindMillGDTAdapter.xcframework'
   end
 end
