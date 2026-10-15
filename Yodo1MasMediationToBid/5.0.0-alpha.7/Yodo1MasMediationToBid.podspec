@@ -28,10 +28,10 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'ToBid-iOS-RC/ToBidSDK', '5.10.0'
-    sub.dependency 'ToBid-iOS-RC/BidResultAdapter', '5.10.0'
-    sub.dependency 'ToBid-iOS-RC/BaiduAdapter', '5.10.0'
-    sub.dependency 'ToBid-iOS-RC/KSAdapter', '5.10.0'
+    sub.dependency 'ToBid-iOS-RC/ToBidSDK', '5.10.1'
+    sub.dependency 'ToBid-iOS-RC/BidResultAdapter', '5.10.1'
+    sub.dependency 'ToBid-iOS-RC/BaiduAdapter', '5.10.1'
+    sub.dependency 'ToBid-iOS-RC/KSAdapter', '5.10.1'
     #    sub.dependency 'ToBid-iOS/CSJMediationAdapter', '4.0.0'
     #    sub.dependency 'ToBid-iOS/TouTiaoAdapter', '4.0.0'
     #    sub.dependency 'ToBid-iOS/GDTAdapter', '4.0.0'
