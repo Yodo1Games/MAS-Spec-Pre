@@ -33,13 +33,13 @@ Pod::Spec.new do |s|
   s.dependency 'Yodo1MasMediationAdMob/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationAdMob/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationAdMob/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationAdMob/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationAdMob/TopOn', '5.0.0'
 
   # AppLovin
   s.dependency 'Yodo1MasMediationApplovin/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationApplovin/AdMob', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationApplovin/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationApplovin/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationApplovin/TopOn', '5.0.0'
   s.dependency 'Yodo1MasMediationApplovin/Aurion11', '5.0.0-alpha.7'
   
   # Aution11
@@ -50,13 +50,13 @@ Pod::Spec.new do |s|
   s.dependency 'Yodo1MasMediationBidMachine/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationBidMachine/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationBidMachine/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationBidMachine/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationBidMachine/TopOn', '5.0.0'
 
   # Bigo Ads
   s.dependency 'Yodo1MasMediationBigo/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationBigo/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationBigo/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationBigo/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationBigo/TopOn', '5.0.0'
 
   # CSJ
 #  s.dependency 'Yodo1MasMediationCSJ/Core', '5.0.0'
@@ -67,34 +67,34 @@ Pod::Spec.new do |s|
   s.dependency 'Yodo1MasMediationFacebook/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationFacebook/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationFacebook/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationFacebook/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationFacebook/TopOn', '5.0.0'
 
   # DT Exchange(Fyber)
   s.dependency 'Yodo1MasMediationFyber/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationFyber/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationFyber/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationFyber/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationFyber/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationFyber/TopOn', '5.0.0'
 
   # InMobi
   s.dependency 'Yodo1MasMediationInMobi/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationInMobi/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationInMobi/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationInMobi/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationInMobi/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationInMobi/TopOn', '5.0.0'
 
   # ironSource
   s.dependency 'Yodo1MasMediationIronSource/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationIronSource/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationIronSource/AppLovin', '5.0.0-alpha.7'
-  s.dependency 'Yodo1MasMediationIronSource/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationIronSource/TopOn', '5.0.0'
 
   # Mintegral
   s.dependency 'Yodo1MasMediationMintegral/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationMintegral/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationMintegral/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationMintegral/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationMintegral/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationMintegral/TopOn', '5.0.0'
 
   # Moloco
   s.dependency 'Yodo1MasMediationMoloco/Core', '5.0.0-alpha.7'
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   s.dependency 'Yodo1MasMediationPangle/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationPangle/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationPangle/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationPangle/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationPangle/TopOn', '5.0.0'
 
   # Tencent
 #  s.dependency 'Yodo1MasMediationTencent/Core', '5.0.0'
@@ -117,22 +117,22 @@ Pod::Spec.new do |s|
 #  s.dependency 'Yodo1MasMediationToBid/Core', '5.0.0'
 
   # TopOn
-  s.dependency 'Yodo1MasMediationTopOn/Core', '5.0.0-alpha.7'
-  s.dependency 'Yodo1MasMediationTopOn/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationTopOn/Core', '5.0.0'
+#  s.dependency 'Yodo1MasMediationTopOn/TopOn', '5.0.0'
 
   # Unity Ads
   s.dependency 'Yodo1MasMediationUnityAds/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationUnityAds/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationUnityAds/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationUnityAds/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationUnityAds/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationUnityAds/TopOn', '5.0.0'
 
   # Liftoff Monetize(Vungle)
   s.dependency 'Yodo1MasMediationVungle/Core', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationVungle/AdMob', '5.0.0-alpha.7'
   s.dependency 'Yodo1MasMediationVungle/AppLovin', '5.0.0-alpha.7'
 #  s.dependency 'Yodo1MasMediationVungle/IronSource', '5.0.0'
-  s.dependency 'Yodo1MasMediationVungle/TopOn', '5.0.0-alpha.7'
+#  s.dependency 'Yodo1MasMediationVungle/TopOn', '5.0.0'
 
   # Yandex
 #  s.dependency 'Yodo1MasMediationYandex/Core', '5.0.0'
