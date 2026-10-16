@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'MolocoSDKiOS', '4.11.1'
+    sub.dependency 'MolocoSDKiOS', '4.10.0'
   end
   s.subspec 'AppLovin' do |sub|
     sub.dependency 'Yodo1MasMediationMoloco/Core', '5.0.0-alpha.7'
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'AdMob' do |sub|
     sub.dependency 'Yodo1MasMediationMoloco/Core', '5.0.0-alpha.7'
-    sub.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+    sub.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
     sub.vendored_frameworks = s.name + '/Lib/MolocoAdapter.xcframework'
   end
 #  s.subspec 'IronSource' do |sub|
