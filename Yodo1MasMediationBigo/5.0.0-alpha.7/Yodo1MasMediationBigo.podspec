@@ -42,9 +42,9 @@ Pod::Spec.new do |s|
 #    sub.dependency 'IronSourceSDK', '9.3.0.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISBigoAdapter.xcframework'
 #  end
-  s.subspec 'TopOn' do |sub|
-    sub.dependency 'Yodo1MasMediationBigo/Core', '5.0.0-alpha.7'
-    sub.dependency 'TPNiOS', '6.5.73'
-    sub.vendored_frameworks = s.name + '/Lib/AnyThinkBigoAdapter.xcframework'
-  end
+#  s.subspec 'TopOn' do |sub|
+#    sub.dependency 'Yodo1MasMediationBigo/Core', '5.0.0'
+#    sub.dependency 'TPNiOS', '6.5.73'
+#    sub.vendored_frameworks = s.name + '/Lib/AnyThinkBigoAdapter.xcframework'
+#  end
 end
