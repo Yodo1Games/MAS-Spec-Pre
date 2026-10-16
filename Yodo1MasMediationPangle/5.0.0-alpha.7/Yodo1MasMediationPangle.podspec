@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'Ads-Global', '8.2.1.0'
+    sub.dependency 'Ads-Global', '8.3.0.8'
   end
   s.subspec 'AppLovin' do |sub|
     sub.dependency 'Yodo1MasMediationPangle/Core', '5.0.0-alpha.7'
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   end
 #  s.subspec 'IronSource' do |sub|
 #    sub.dependency 'Yodo1MasMediationPangle/Core', '5.0.0'
-#    sub.dependency 'IronSourceSDK', '9.3.0.0'
+#    sub.dependency 'IronSourceSDK', '9.6.1.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISPangleAdapter.xcframework'
 #  end
 #  s.subspec 'TopOn' do |sub|
