@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'IronSourceSDK', '9.3.0.0'
+    sub.dependency 'IronSourceSDK', '9.6.1.0'
   end
   s.subspec 'AppLovin' do |sub|
     sub.dependency 'Yodo1MasMediationIronSource/Core', '5.0.0-alpha.7'
