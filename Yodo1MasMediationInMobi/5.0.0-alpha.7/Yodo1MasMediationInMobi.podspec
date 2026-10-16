@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
     sub.vendored_frameworks = "#{s.name}/#{s.name}.xcframework"
     sub.dependency 'Yodo1MasCore', '5.0.0-alpha.7'
-    sub.dependency 'InMobiSDK', '11.4.1'
+    sub.dependency 'InMobiSDK', '11.5.0'
   end
   s.subspec 'AppLovin' do |sub|
     sub.dependency 'Yodo1MasMediationInMobi/Core', '5.0.0-alpha.7'
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'AdMob' do |sub|
     sub.dependency 'Yodo1MasMediationInMobi/Core', '5.0.0-alpha.7'
-    sub.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+    sub.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
     sub.vendored_frameworks = s.name + '/Lib/InMobiAdapter.xcframework'
   end
 #  s.subspec 'IronSource' do |sub|
@@ -46,9 +46,9 @@ Pod::Spec.new do |s|
 #    sub.dependency 'IronSourceSDK', '9.3.0.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISInMobiAdapter.xcframework'
 #  end
-  s.subspec 'TopOn' do |sub|
-    sub.dependency 'Yodo1MasMediationInMobi/Core', '5.0.0-alpha.7'
-    sub.dependency 'TPNiOS', '6.5.73'
-    sub.vendored_frameworks = s.name + '/Lib/AnyThinkInmobiAdapter.xcframework'
-  end
+#  s.subspec 'TopOn' do |sub|
+#    sub.dependency 'Yodo1MasMediationInMobi/Core', '5.0.0'
+#    sub.dependency 'TPNiOS', '6.5.73'
+#    sub.vendored_frameworks = s.name + '/Lib/AnyThinkInmobiAdapter.xcframework'
+#  end
 end
