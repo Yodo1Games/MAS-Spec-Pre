@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
   s.source = { :http => 'https://mas-artifacts.yodo1.com/5.0.0-alpha.7/iOS/Pre/Yodo1MasMediationFyber-5.0.0-alpha.7.zip' }
   s.swift_version    = '5.0'
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
   s.static_framework = true
   s.xcconfig = {
     "OTHER_LDFLAGS" => "-ObjC",
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'AdMob' do |sub|
     sub.dependency 'Yodo1MasMediationFyber/Core', '5.0.0-alpha.7'
-    sub.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+    sub.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
     sub.vendored_frameworks = s.name + '/Lib/DTExchangeAdapter.xcframework'
   end
 #  s.subspec 'IronSource' do |sub|
@@ -45,9 +45,9 @@ Pod::Spec.new do |s|
 #    sub.dependency 'IronSourceSDK', '9.3.0.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISFyberAdapter.xcframework'
 #  end
-  s.subspec 'TopOn' do |sub|
-    sub.dependency 'Yodo1MasMediationFyber/Core', '5.0.0-alpha.7'
-    sub.dependency 'TPNiOS', '6.5.73'
-    sub.vendored_frameworks = s.name + '/Lib/AnyThinkFyberAdapter.xcframework'
-  end
+#  s.subspec 'TopOn' do |sub|
+#    sub.dependency 'Yodo1MasMediationFyber/Core', '5.0.0'
+#    sub.dependency 'TPNiOS', '6.5.73'
+#    sub.vendored_frameworks = s.name + '/Lib/AnyThinkFyberAdapter.xcframework'
+#  end
 end
