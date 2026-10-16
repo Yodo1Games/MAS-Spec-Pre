@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   end
 #  s.subspec 'IronSource' do |sub|
 #    sub.dependency 'Yodo1MasMediationVungle/Core', '5.0.0'
-#    sub.dependency 'IronSourceSDK', '9.3.0.0'
+#    sub.dependency 'IronSourceSDK', '9.6.1.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISVungleAdapter.xcframework'
 #  end
 #  s.subspec 'TopOn' do |sub|
