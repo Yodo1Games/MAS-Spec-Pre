@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'AdMob' do |sub|
     sub.dependency 'Yodo1MasMediationApplovin/Core', '5.0.0-alpha.7'
-    sub.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+    sub.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
     sub.vendored_frameworks = s.name + '/Lib/AppLovinAdapter.xcframework'
   end
 #  s.subspec 'IronSource' do |sub|
@@ -43,11 +43,11 @@ Pod::Spec.new do |s|
 #    sub.dependency 'IronSourceSDK', '9.3.0.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISAppLovinAdapter.xcframework'
 #  end
-  s.subspec 'TopOn' do |sub|
-    sub.dependency 'Yodo1MasMediationApplovin/Core', '5.0.0-alpha.7'
-    sub.dependency 'TPNiOS', '6.5.73'
-    sub.vendored_frameworks = s.name + '/Lib/AnyThinkApplovinAdapter.xcframework'
-  end
+#  s.subspec 'TopOn' do |sub|
+#    sub.dependency 'Yodo1MasMediationApplovin/Core', '5.0.0'
+#    sub.dependency 'TPNiOS', '6.5.73'
+#    sub.vendored_frameworks = s.name + '/Lib/AnyThinkApplovinAdapter.xcframework'
+#  end
   s.subspec 'Aurion11' do |sub|
     sub.dependency 'Yodo1MasMediationApplovin/Core', '5.0.0-alpha.7'
     sub.dependency 'Yodo1MasMediationAurion11/A11Mediation', '5.0.0-alpha.7'
