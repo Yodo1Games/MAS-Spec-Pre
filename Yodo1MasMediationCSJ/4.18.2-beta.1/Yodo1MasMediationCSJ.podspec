@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     sub.dependency 'Ads-CN/CSJMediation-Only', '7.8.0.5'
   end
   #  s.subspec 'AppLovin' do |sub|
-  #    sub.dependency 'Yodo1MasMediationCSJ/Core', '5.0.0'
+  #    sub.dependency 'Yodo1MasMediationCSJ/Core', '4.18.2'
   #    sub.dependency 'AppLovinSDK', '13.6.4'
   #    sub.vendored_frameworks = s.name + '/Lib/AppLovinMediationCSJAdapter.xcframework'
   #  end
