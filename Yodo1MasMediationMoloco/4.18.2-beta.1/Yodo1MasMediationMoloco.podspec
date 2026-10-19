@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
     sub.vendored_frameworks = s.name + '/Lib/MolocoAdapter.xcframework'
   end
 #  s.subspec 'IronSource' do |sub|
-#    sub.dependency 'Yodo1MasMediationMoloco/Core', '5.0.0'
+#    sub.dependency 'Yodo1MasMediationMoloco/Core', '4.18.2'
 #    sub.dependency 'IronSourceSDK', '9.6.1.0'
 #    sub.vendored_frameworks = s.name + '/Lib/ISMolocoAdapter.xcframework'
 #  end
