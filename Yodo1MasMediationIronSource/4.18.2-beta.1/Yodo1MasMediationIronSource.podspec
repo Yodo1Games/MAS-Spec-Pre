@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
     sub.vendored_frameworks = s.name + '/Lib/IronSourceAdapter.xcframework'
   end
 #  s.subspec 'TopOn' do |sub|
-#    sub.dependency 'Yodo1MasMediationIronSource/Core', '5.0.0'
+#    sub.dependency 'Yodo1MasMediationIronSource/Core', '4.18.2'
 #    sub.dependency 'TPNiOS', '6.5.73'
 #    sub.vendored_frameworks = s.name + '/Lib/AnyThinkIronSourceAdapter.xcframework'
 #  end
