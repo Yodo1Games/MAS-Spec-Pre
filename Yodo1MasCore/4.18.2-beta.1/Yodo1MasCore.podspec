@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
   s.dependency 'GoogleUserMessagingPlatform'
   s.dependency 'YDYThinkingSDK', '2.8.0.4'
-  s.dependency 'AppHarbrSDK', '>= 1.33.0', '< 2.0'
+  s.dependency 'AppHarbrSDK', '1.38.0'
 end
